@@ -1,0 +1,12 @@
+# LTspice simulation binaries and logs
+*.raw
+*.op.raw
+*.net
+*.log
+*.bck
+
+# Arduino build artifacts
+build/
+*.elf
+*.bin
+*.hex
