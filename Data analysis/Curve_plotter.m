@@ -1,9 +1,9 @@
 data = csvread('tracer_data.csv');
 
 % Extract the columns directly
-Vce = sweep_data(:, 1);
-Ib  = sweep_data(:, 2) * 1e6;
-Ic  = sweep_data(:, 3) * 1e3;
+Vce = data(:, 1);
+Ib  = data(:, 2) * 1e6;
+Ic  = data(:, 3) * 1e3;
 
 figure;
 % scatter3(X, Y, Z, dot_size, color_mapping, style)
