@@ -38,7 +38,7 @@ end
 
 clear esp;
 
-% Safely check if the matrix actually has data before saving
+% This line safely checks if the matrix actually has data before saving
 if ~isempty(sweep_data)
     csvwrite('tracer_data.csv', sweep_data);
     disp("Data capture complete and saved to tracer_data.csv!");
